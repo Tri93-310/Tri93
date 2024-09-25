@@ -1,0 +1,52 @@
+:root{
+    --primary-color:#293039;
+    --round:30px
+}
+body{
+    font-size: 0.bron;
+    font-family:"Open fan"
+}
+
+#persional-holder{
+    background-color:var(--primary-color);
+    color: #F0CDFF;
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#persional-holder button{
+    background-color: #293039EE;
+    color: inherit;
+    border-color: #F0CDFF;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+#persional-holder img{
+    border-radius: 10%;
+}
+#header-holder{
+    background: color #fffff4; ;
+    color:#293039 ;
+    padding: 30px;
+    padding-left: 45px;
+}
+.content{
+    background-color: #F0CDFF;
+    color: #6C065E;
+    padding: 30px;
+    padding-left: 45px;
+}
+.button{
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: inherit;
+    background-color: #F0CDFF;
+}
